@@ -4,12 +4,12 @@ import nomes from "./names.js"
 
 function fakeName() {
     let pos = parseInt(Math.random()*nomes.length)
-return nomes(pos)
+return nomes[pos]
 }
 
 function fakeSobrenome() {
     let pos = parseInt(Math.random()*sobrenomes.length)
-return sobrenomes(pos)
+return sobrenomes[pos]
 }
 
 export function createFakeUser(){
